@@ -8,6 +8,4 @@ function header(label){return `<header class="top"><div class="brand">APTECH <sp
 const head=title=>`<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f4f2e9"><title>${title}</title><style>${css}\n${styles}</style></head><body>`;
 const html=head('Session 7 · Student tasks and assignments')+header('STUDENT ASSIGNMENT PACK')+`<main class="assign-app"><div id="intro"></div><nav id="taskTabs" class="task-tabs" aria-label="Assignment navigation"></nav><section id="taskPanel" class="task-panel" aria-label="Current task"></section></main><footer class="pack-bottom"><button id="previousTask">← Previous</button><div class="pack-status"><div id="progressLabel"></div><div id="saveStatus" class="save-message" aria-live="polite"></div></div><button id="nextTask">Next task →</button></footer><div id="printContent"></div><script>${source}\n${theme}</script></body></html>`;
 fs.writeFileSync(path.join(root,'session-07-assignments.html'),html);
-const teacher=fs.readFileSync(path.join(root,'session-07-teacher-guide.body.html'),'utf8');
-fs.writeFileSync(path.join(root,'session-07-teacher-guide.html'),head('Session 7 · Teacher answers and marking guide')+header('TEACHER ANSWERS & MARKING GUIDE')+'<main class="teacher-guide">'+teacher+'</main><script>'+theme+'</script></body></html>');
-console.log('Built student assignment pack and separate teacher answer guide.');
+console.log('Built student assignment pack.');

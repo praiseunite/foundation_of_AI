@@ -1,0 +1,33 @@
+# Local teaching and preparation material
+.private-course/
+Practical_AI_Teaching_Blueprint_and_Prompt.md
+*teacher-guide*
+*teacher-notes*
+*teacher_notes*
+*lesson-notes*
+*lesson_notes*
+*master-prompt*
+*master_prompt*
+
+# Internal checks, screenshots, and generated work
+.qa*/
+qa-session-*
+__pycache__/
+*.py[cod]
+node_modules/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+*.log
+session-*-my-*.txt
+session-*-assignment-draft.json
+session-*-assignment-submission.txt
+
+# Local tools and operating system files
+.codex/
+.agents/
+.aws/
+.DS_Store
+Thumbs.db
