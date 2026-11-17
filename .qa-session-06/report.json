@@ -1,0 +1,19 @@
+{
+  "slides": 40,
+  "minutes": 120,
+  "searchCases": 128,
+  "truthCases": 27,
+  "neuronCases": 54,
+  "sessionLinks": "1 ↔ 2 ↔ 3 ↔ 4 ↔ 5 ↔ 6",
+  "testedWidths": [
+    1440,
+    1280,
+    390,
+    320
+  ],
+  "horizontalOverflow": [],
+  "browserErrors": [],
+  "networkRequests": [],
+  "projectorScroll": [],
+  "screenshots": "C:\\Projects\\Aptech\\foundations of ai\\.qa-session-06"
+}

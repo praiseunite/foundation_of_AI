@@ -1,0 +1,27 @@
+{
+  "format": "aptech-linear-regression-v1",
+  "formula": "prediction = slope * hours + bias",
+  "inputUnits": "hours",
+  "outputUnits": "fictional credits",
+  "slope": 2.0010708978543077,
+  "bias": 0.9968514297158915,
+  "scenario": "straight",
+  "steps": 500,
+  "learningRate": 0.03,
+  "frozen": true,
+  "testSeen": true,
+  "evaluation": {
+    "train": {
+      "mae": 0.0010708978543074732,
+      "mse": 1.6556756347327741e-06
+    },
+    "validation": {
+      "mae": 0.00274136791458357,
+      "mse": 7.801803596698003e-06
+    },
+    "test": {
+      "mae": 0.004883163623198961,
+      "mse": 2.413199252452523e-05
+    }
+  }
+}

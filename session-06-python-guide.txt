@@ -1,0 +1,45 @@
+FOUNDATIONS OF AI - SESSION 6 OFFLINE PYTHON PRACTICE
+Original supplementary revision, not official textbook question answers.
+
+1. Extract this ZIP into a folder. Use an existing Python 3 installation.
+2. Open a terminal in that folder. Run:
+   python session06_practice.py
+   python session06_capstone.py
+   If Windows uses the Python launcher, replace python with py.
+3. Predict an output first, run the example, change ONE value, and explain why
+   the result changed. No account, API key, packages, or internet are required.
+
+STARTER: session06_practice.py
+Read the eight neuron lines first: assign inputs/weights, calculate the score,
+apply max, and print. Default score/output: 0.70.
+Then inspect metrics. Expected values for TP2 FP2 FN1 TN3:
+accuracy 62.5%, precision 50.0%, recall 66.7%, F1 57.1%.
+Always-normal example: 95% accuracy, undefined precision, 0% recall and F1.
+Empty dataset: all ratios undefined. None explicitly represents undefined here.
+Lastly compare the literal "prompt" with the prompt variable and inspect history.
+
+CAPSTONE: session06_capstone.py
+Read not3, and3, and may_enter first. None means Unknown in this chosen model.
+True/False/Unknown are conditions; do not treat a missing fact as proven False.
+The default route is A -> B -> C -> D, cost 4. Closing A-B changes cost to 6.
+Training Unknown asks for evidence; suspension True fails the condition;
+isolated Delivery is unreachable even if the access condition is satisfied.
+Hours use fictional F1; the excerpt does not support a fee amount.
+This is a transparent rule/search assistant with fixed text, not an LLM.
+
+OPTIONAL STRETCH: search internals
+A dictionary maps nodes to neighbours. A list holds waiting paths.
+Each loop selects the path with the lowest accumulated cost, expands its open
+roads, and records improvements. Positive costs support the goal-selection rule.
+Do not memorise the loop: trace the map in the HTML before reading this function.
+
+CHECK YOUR UNDERSTANDING
+- Set both neuron inputs to zero. Why does the bias still affect the score?
+- Turn a missed spam into a caught spam. Which denominators stay the same?
+- Why is unknown training different from explicitly failed training?
+- Why does a two-move BFS path cost 9 while UCS finds a three-move path costing 4?
+- What facts would a library-loan version require? Write two changed test cases.
+
+The short classroom assignment is a system design with explained cases.
+Writing a complete program is optional stretch practice. Use the teacher's actual
+book questions and ProConnect assignments separately when those are available.

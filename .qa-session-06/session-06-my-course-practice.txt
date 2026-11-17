@@ -1,0 +1,102 @@
+FOUNDATIONS OF AI · SESSION 06
+
+Original supplementary practice · 11/8/2026
+
+ML scenario
+[Not answered]
+
+Changed neuron explanation
+[Not answered]
+
+New search problem
+[Not answered]
+
+Changed evidence and conclusion
+[Not answered]
+
+Metric calculations and evidence
+[Not answered]
+
+Request mistake and remedy
+[Not answered]
+
+Own capstone design and test cases
+Loan system: ask for a missing return date; reject an overdue loan.
+
+Reflection and next practice
+[Not answered]
+
+WORKFLOW
+task → data → prepare → train → tune → test → monitor
+
+TOY NEURON
+{"x1":0.8,"x2":0.4,"w1":1.2,"w2":0.6,"b":-0.5,"activation":"relu"}
+{"t1":0.96,"t2":0.24,"z":0.7,"output":0.7}
+
+SEARCH CONFIGURATION
+ucs, unit, roads open
+
+CURRENT SEARCH RESULT
+{"found":true,"path":["A","B","D"],"cost":2}
+
+THREE-VALUED FACTS
+{"enrolled":true,"trained":true,"suspended":true}
+Access condition: False
+
+CONFUSION SORTING
+{"M1":"tp","M2":"fn","M3":"fn","M4":"tn","M5":"tp","M6":"tn","M7":"fp","M8":"tn"}
+
+METRIC COUNTS AND RESULTS
+{"tp":2,"fp":2,"fn":1,"tn":3}
+{"valid":true,"total":8,"accuracy":0.625,"precision":0.5,"recall":0.6666666666666666,"f1":0.5714285714285714}
+
+LOCAL CAPSTONE RESULT
+The supplied handbook excerpt does not state a fee. Ask the campus office or check the full handbook.
+
+SELF-REPORTED SKILLS
+Practise further: Define a task, inputs, and a useful objective.
+Practise further: Explain labels and recognise leakage.
+Practise further: Calculate a toy neuron and explain its parameters.
+Practise further: Trace a route search and compare moves with costs.
+Demonstrated to partner: Keep unknown facts separate from False.
+Practise further: Compute metrics and explain the denominators.
+Practise further: Explain prompt values and conversation context.
+Practise further: Check an answer against supporting evidence.
+
+QUIZ CHECKS
+
+warm: correct
+
+types: not answered
+
+learning: not answered
+
+leakage: not answered
+
+deep: not answered
+
+stock: not answered
+
+state: not answered
+
+search: not answered
+
+unknown: not answered
+
+reason: not answered
+
+metric: not answered
+
+evidence: not answered
+
+prompt: not answered
+
+history: not answered
+
+exit1: correct
+
+exit2: correct
+
+exit3: correct
+
+These records are original practice and self-reported reflection, not an official textbook completion record or exam grade.

@@ -1,0 +1,9 @@
+Task: Explain a list with a two-item example.
+
+Audience: A student who has never programmed.
+
+Output format: One short sentence and one Python example.
+
+Provided facts: name = "Amina" stores the text Amina under the name name.
+
+Limits: Use simple words. Do not claim the computer understands names like a person.

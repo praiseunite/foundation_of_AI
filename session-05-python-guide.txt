@@ -1,0 +1,74 @@
+FOUNDATIONS OF AI - SESSION 5 PYTHON PRACTICE
+
+Extract the whole ZIP and keep the files together. The shared runner lives in
+session05_runtime.py. The presentation is session-05.html in the course folder.
+
+Start offline (Python installed, no SDK, network, key, or payment required):
+    py string_foundations.py
+    py first_openai_request.py
+    py few_shot_labels.py
+    py conversation_context.py
+    py response_chain.py
+
+If the Windows Python launcher is unavailable, use python instead of py.
+Each API-shaped exercise prints OFFLINE MODE. Its output is scripted, not AI.
+The string exercise runs normal Python and prints a value and a literal name.
+
+Predict before you run:
+    Strings: Python variables, then topic
+    First request: one scripted variable explanation
+    Labels: HOURS; expected-label comparison True
+    Manual conversation: acknowledgement, then Hello, Amina!
+    Response chain: Hello, Amina!
+
+Change one value, explain the change, and run again. The offline runner uses
+simple keyword rules and exact name-message matching; it is not a language model
+and cannot demonstrate the full behaviour of an OpenAI model or API.
+
+Optional live setup in the extracted folder:
+    py -m venv .venv
+    .\.venv\Scripts\python.exe -m pip install --upgrade openai
+    .\.venv\Scripts\python.exe first_openai_request.py --live
+
+Live mode reads a private OPENAI_API_KEY if set. Otherwise it asks for hidden
+local entry in an interactive terminal. Never paste a key into source, the HTML,
+submitted worksheets, public chats, or screenshots. No key is saved by the runner.
+
+Actual API access, usage allowance/billing, an available model, and a network
+connection are needed for live mode. Live requests can incur charges. Output can
+vary. The default model ID gpt-6-astra matches the official quickstart checked on
+8 November 2026. Choose a model accessible and suitable for your API project:
+    .\.venv\Scripts\python.exe first_openai_request.py --live --model YOUR_MODEL_ID
+
+The historical gpt-3.5-turbo and gpt-4-turbo-preview IDs are retired and rejected
+by the classroom runner. They remain in the lesson's historical comparison.
+
+Number of live requests (the runner disables automatic SDK retries):
+    first_openai_request.py: 1
+    few_shot_labels.py: 1
+    conversation_context.py: 2
+    response_chain.py: 2
+
+Each request has a 30-second timeout and max_output_tokens=512. The bound includes
+reasoning where applicable and can produce an incomplete result. The runner asks
+for low reasoning effort for the two explicitly supported GPT-6 example IDs.
+Other models can have different supported fields. Check current documentation.
+
+The first three API-shaped exercises use store=False. This disables saving the
+response object for later retrieval, not every service log or application record.
+The response-chain exercise uses store=True so a supported earlier response can
+be linked. Review API data-retention rules before live use.
+
+Suggested assignments:
+1. Explain quotation marks, equals signs, dots, commas, and parentheses in code.
+2. Improve a prompt while keeping the task and evaluation checks fixed.
+3. Add correct examples; keep new test cases distinct from the examples.
+4. Compare follow-up with history and with history[-1:] (last message only).
+5. Check syntax/format and meaning separately. Record actual live answers if used.
+
+Official references:
+https://developers.openai.com/api/docs/quickstart
+https://developers.openai.com/api/docs/deprecations
+https://developers.openai.com/api/docs/guides/prompt-engineering
+https://developers.openai.com/api/docs/guides/conversation-state
+https://developers.openai.com/api/reference/python/resources/responses/methods/create

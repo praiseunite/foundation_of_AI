@@ -1,0 +1,19 @@
+{
+  "slides": 37,
+  "minutes": 120,
+  "parityCases": 12,
+  "gradientCases": 27,
+  "monotonicSteps": 1000,
+  "sessionLinks": "1 ↔ 2 ↔ 3 ↔ 4 ↔ 5 ↔ 6 ↔ 7 (extra workshop)",
+  "testedWidths": [
+    1440,
+    1280,
+    390,
+    320
+  ],
+  "horizontalOverflow": [],
+  "browserErrors": [],
+  "networkRequests": [],
+  "projectorScroll": [],
+  "screenshots": "C:\\Projects\\Aptech\\foundations of ai\\.qa-session-07"
+}
